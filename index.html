@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Page Title</title>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div class="navigation_wrap">
+    <div class="left_side">
+          <div class="navigation_wrapper_link">
+               <a href="about.html">About</a> 
+          </div>
+
+         <div class="navigation_wrapper_link">
+               <a href="index.html">Home</a>
+          </div>
+  </div>
+
+    <div class="right_side">
+         <div class="brand">
+               <div>End Of Days</div>
+         </div>
+    </div>
+  </div>
+
+      <div class="content_wrapper">
+        <div class="portfolio_items_wrapper">
+
+          <div class="portfolio_item_wrapper">
+            <div class="portfolio_img_background" style="background-image:url(images/path1/compare-fibre-tiSE_paTt0A-unsplash.jpg)"></div>
+
+              <div class="image_text_wrapper">
+              <div class="logo_wrapper">
+
+              </div>
+
+              <div class="subtitle">
+                Programmers Z0ne
+
+              </div>
+            </div>
+        </div>
+        <div class="portfolio_item_wrapper">
+          <div class="portfolio_img_background" style="background-image:url(images/path2/felix-mittermeier-nAjil1z3eLk-unsplash.jpg)"></div>
+          <div class="image_text_wrapper">
+            <div class="logo_wrapper">
+
+            </div>
+
+            <div class="subtitle">
+              Chess Kingdom
+
+            </div>
+          </div>
+      </div>
+      <div class="portfolio_item_wrapper">
+        <div class="portfolio_img_background" style="background-image:url(images/path3/john-fowler-7Ym9rpYtSdA-unsplash.jpg)"></div>
+        <div class="image_text_wrapper">
+          <div class="logo_wrapper">
+
+          </div>
+
+          <div class="subtitle">
+            Intellectual-Verse
+
+          </div>
+        </div>
+    </div>
+    <div class="portfolio_item_wrapper">
+      <div class="portfolio_img_background" style="background-image:url(images/path4/alex-knight-2EJCSULRwC8-unsplash.jpg)"></div>
+      <div class="image_text_wrapper">
+        <div class="logo_wrapper">
+        </div>
+
+        <div class="subtitle">
+          Tech-Space
+
+        </div>
+      </div>
+  </div>
+  <div class="portfolio_item_wrapper">
+    <div class="portfolio_img_background" style="background-image:url(images/path5/nasa-Q1p7bh3SHj8-unsplash.jpg)"></div>
+    <div class="image_text_wrapper">
+      <div class="logo_wrapper">
+
+      </div>
+
+      <div class="subtitle">
+        Events South Africa
+
+      </div>
+    </div>
+</div>
+<div class="portfolio_item_wrapper">
+  <div class="portfolio_img_background" style="background-image:url(images/path6/roth-melinda-Qd7kQJUqrXA-unsplash.jpg)"></div>
+  <div class="image_text_wrapper">
+    <div class="logo_wrapper">
+
+    </div>
+
+    <div class="subtitle">
+      End Of Days Content
+
+    </div>
+  </div>
+</div>
+<div class="portfolio_item_wrapper">
+  <div class="portfolio_img_background" style="background-image:url(images/path7/nikita-kachanovsky-FJFPuE1MAOM-unsplash.jpg)"></div>
+  <div class="image_text_wrapper">
+    <div class="logo_wrapper">
+      
+
+    </div>
+
+    <div class="subtitle">
+      Gamers Realm
+
+    </div>
+  </div>
+</div>
+<div class="portfolio_item_wrapper">
+  <div class="portfolio_img_background" style="background-image:url(images/path8/ryunosuke-kikuno-FKqxZ58bVjU-unsplash.jpg)"></div>
+  <div class="image_text_wrapper">
+    <div class="logo_wrapper">
+    
+
+    </div>
+
+    <div class="subtitle">
+     Resources Archive
+
+    </div>
+  </div>
+</div>
+<div class="portfolio_item_wrapper">
+  <div class="portfolio_img_background" style="background-image:url(images/path9/andre-francois-mckenzie-JrjhtBJ-pGU-unsplash.jpg)"></div>
+  <div class="image_text_wrapper">
+    <div class="logo_wrapper">
+
+    </div>
+
+    <div class="subtitle">
+      Investments South Africa
+
+    </div>
+  </div>
+</div>
+<div class="portfolio_item_wrapper">
+  <div class="portfolio_img_background" style="background-image:url(images/path10/florian-klauer-mk7D-4UCfmg-unsplash.jpg)"></div>
+  <div class="image_text_wrapper">
+    <div class="logo_wrapper">
+
+    </div>
+
+    <div class="subtitle">
+      Enquaries To Dev
+
+    </div>
+  </div>
+</div>
+<div class="portfolio_item_wrapper">
+  <div class="portfolio_img_background" style="background-image:url(images/path11/neonbrand-dDvrIJbSCkg-unsplash.jpg)"></div>
+  <div class="image_text_wrapper">
+    <div class="logo_wrapper">
+
+    </div>
+
+    <div class="subtitle">
+      Tech-Job-Search
+
+    </div>
+  </div>
+</div>
+<div class="portfolio_item_wrapper">
+  <div class="portfolio_img_background" style="background-image:url(images/path12/markus-winkler-q3QPw37J6Xs-unsplash.jpg)"></div>
+  <div class="image_text_wrapper">
+    <div class="logo_wrapper">
+
+    </div>
+
+    <div class="subtitle">
+      Developer Contacts
+
+    </div>
+  </div>
+</div>
+
+   </div>
+ </div>
+
+ </div>
+</body>
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio_item_wrapper')
+
+portfolioItems.forEach(portfolioItem => {
+  portfolioItem.addEventListener('mouseover',() => {
+  (portfolioItem.childNodes[1].classList);
+  portfolioItem.childNodes[1].classList.add('image_darken');
+  })
+  portfolioItem.addEventListener('mouseout',() => {
+  (portfolioItem.childNodes[1].classList);
+  portfolioItem.childNodes[1].classList.remove('image_darken');
+  })
+
+})
+</script>
+</html>  
